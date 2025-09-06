@@ -28,9 +28,9 @@ export default function Navigation({ theme, mounted, activeSection, scrollToSect
               <Code className="w-4 h-4 text-primary-foreground" />
             </div>
             <span
-              className={`text-xl font-bold bg-gradient-to-r bg-clip-text text-transparent ${mounted ? (theme === "light" ? "from-primary to-green-300" : "from-primary to-green-400") : "from-primary to-green-400"}`}
+              className={`text-xl font-bold bg-gradient-to-r bg-clip-text text-transparent ${mounted ? (theme === "light" ? "from-primary to-green-400" : "from-primary to-green-400") : "from-primary to-green-400"}`}
             >
-              JD
+              Phaneendra Marri
             </span>
           </motion.div>
 
