@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail , Twitter} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -16,21 +16,28 @@ export default function Footer() {
           className="flex justify-center space-x-6 mb-6"
         >
           <motion.a
-            href="#"
+            href="https://github.com/phaneendra73/"
             whileHover={{ scale: 1.1, color: "#00ff41" }}
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Github className="w-6 h-6" />
           </motion.a>
           <motion.a
-            href="#"
+            href="https://www.linkedin.com/in/phaneendra73/"
             whileHover={{ scale: 1.1, color: "#00ff41" }}
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Linkedin className="w-6 h-6" />
           </motion.a>
+                    <motion.a
+            href="https://x.com/Phaneendra73_"
+            whileHover={{ scale: 1.1, color: "#00ff41" }}
+            className="text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Twitter className="w-6 h-6" />
+          </motion.a>
           <motion.a
-            href="#"
+            href="mailto:phaneendra3377@gmail.com"
             whileHover={{ scale: 1.1, color: "#00ff41" }}
             className="text-muted-foreground hover:text-primary transition-colors"
           >
@@ -38,7 +45,7 @@ export default function Footer() {
           </motion.a>
         </motion.div>
         <p className="text-muted-foreground">
-          © 2024 John Doe. Crafted with <span className="text-primary">❤️</span> using Next.js and shadcn/ui.
+          © 2025 Phaneendra Marri. Crafted with <span className="text-primary">❤️</span>.
         </p>
       </div>
       {/* Custom animations */}

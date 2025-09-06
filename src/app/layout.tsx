@@ -14,19 +14,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Creative Portfolio - John Doe",
-  description: "A creative and innovative portfolio showcasing modern web development, design, and digital experiences.",
-  keywords: ["portfolio", "web development", "design", "creative", "Next.js", "TypeScript", "UI/UX"],
-  authors: [{ name: "John Doe" }],
+  title: "Phaneendra Marri - Portfolio",
+  description: "Portfolio of Phaneendra Marri U+2013 Full Stack Developer. Showcasing projects, skills, and contact information with a modern, responsive design.",
+  keywords: ["Phaneendra Marri", "portfolio", "web development", "Next.js", "TypeScript", "React", "UI/UX", "frontend", "backend"],
+  authors: [{ name: "Phaneendra Marri" }],
   openGraph: {
-    title: "Creative Portfolio - John Doe",
-    description: "Innovative web development and design portfolio",
+    title: "Phaneendra Marri - Portfolio",
+    description: "Portfolio of Phaneendra Marri U+2013 Full Stack Developer. Modern web projects and contact info.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Creative Portfolio - John Doe",
-    description: "Innovative web development and design portfolio",
+    title: "Phaneendra Marri - Portfolio",
+    description: "Portfolio of Phaneendra Marri U+2013 Full Stack Developer. Modern web projects and contact info.",
   },
 };
 

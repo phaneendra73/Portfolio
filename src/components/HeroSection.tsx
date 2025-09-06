@@ -38,10 +38,10 @@ export default function HeroSection({ scrollToSection }: { scrollToSection: (sec
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="text-5xl md:text-7xl font-bold mb-6 text-center lg:text-left"
+              className="text-3xl md:text-5xl font-bold mb-6 text-center lg:text-left"
             >
               <span className="bg-gradient-to-r from-primary via-green-400 to-primary bg-clip-text text-transparent animate-gradient">
-                John Doe
+                Phaneendra Marri
               </span>
             </motion.h1>
             <motion.h2
@@ -50,7 +50,7 @@ export default function HeroSection({ scrollToSection }: { scrollToSection: (sec
               transition={{ delay: 0.6 }}
               className="text-2xl md:text-3xl text-muted-foreground mb-8 text-center lg:text-left"
             >
-              Creative <span className="text-primary">Developer</span> & <span className="text-primary">Designer</span>
+              Full Stack Developer <span className="text-primary">(.NET & Cloud)</span>
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -58,8 +58,7 @@ export default function HeroSection({ scrollToSection }: { scrollToSection: (sec
               transition={{ delay: 0.8 }}
               className="text-lg text-muted-foreground mb-12 leading-relaxed text-center lg:text-left"
             >
-              Crafting digital experiences that blend cutting-edge technology with 
-              stunning design. I transform ideas into interactive realities.
+              I am a passionate Full Stack Developer with 2+ years of experience building scalable web applications using .NET and modern cloud technologies. I love solving real-world problems and delivering robust, user-friendly solutions for businesses of all sizes.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -98,29 +97,29 @@ export default function HeroSection({ scrollToSection }: { scrollToSection: (sec
                 whileHover={{ scale: 1.05 }}
                 className="bg-card/50 backdrop-blur-sm p-6 rounded-lg border border-border"
               >
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
+                <div className="text-3xl font-bold text-primary mb-2">10+</div>
                 <div className="text-muted-foreground">Projects</div>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="bg-card/50 backdrop-blur-sm p-6 rounded-lg border border-border"
               >
-                <div className="text-3xl font-bold text-primary mb-2">5+</div>
+                <div className="text-3xl font-bold text-primary mb-2">2+</div>
                 <div className="text-muted-foreground">Years Experience</div>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="bg-card/50 backdrop-blur-sm p-6 rounded-lg border border-border"
               >
-                <div className="text-3xl font-bold text-primary mb-2">100%</div>
-                <div className="text-muted-foreground">Client Satisfaction</div>
+                <div className="text-3xl font-bold text-primary mb-2">10</div>
+                <div className="text-muted-foreground">Certifications</div>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="bg-card/50 backdrop-blur-sm p-6 rounded-lg border border-border"
               >
-                <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-muted-foreground">Support</div>
+                <div className="text-3xl font-bold text-primary mb-2">3+</div>
+                <div className="text-muted-foreground">Hackathons</div>
               </motion.div>
             </div>
           </motion.div>

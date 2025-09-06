@@ -48,7 +48,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">john.doe@example.com</p>
+                  <a href="mailto:phaneendra3377@gmail.com" className="text-muted-foreground hover:underline">phaneendra3377@gmail.com</a>
                 </div>
               </motion.div>
               <motion.div 
@@ -60,7 +60,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">GitHub</p>
-                  <p className="text-muted-foreground">github.com/johndoe</p>
+                  <a href="https://github.com/phaneendra73" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:underline">github.com/phaneendra73</a>
                 </div>
               </motion.div>
               <motion.div 
@@ -72,7 +72,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">LinkedIn</p>
-                  <p className="text-muted-foreground">linkedin.com/in/johndoe</p>
+                  <a href="https://www.linkedin.com/in/phaneendra73/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:underline">linkedin.com/in/phaneendra73</a>
                 </div>
               </motion.div>
             </div>
